@@ -10,8 +10,8 @@ namespace Gamify.Model.Concrete
     {     
         public static int[,] CreateBoard()
         {
-            //my data structure takes the form of an 8 by 8  2 dimentional array populated by randomly generated numbers between 0 and 10
-            //with this I take any cell with a "2" as containing a landmine
+            //My data structure takes the form of an 8 by 8  2 dimentional array populated by randomly generated numbers between 0 and 10
+            //With this I take any cell with a "2" as containing a landmine
             Random rnd = new Random();
 
             int[,] matrix = new int[8, 8];      
