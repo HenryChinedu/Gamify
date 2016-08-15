@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamify.ConsoleApp", "Gamify.ConsoleApp\Gamify.ConsoleApp.csproj", "{290F108E-EFA2-4E1B-A906-834E3FC68880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamify.Model", "Gamify.Model\Gamify.Model.csproj", "{C5FDB7BB-FDC7-45AB-8B9A-9244E08DF910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamify.UnitTests", "Gamify.UnitTests\Gamify.UnitTests.csproj", "{6A8C7699-FFC2-4EC0-BB5E-BCD58283D468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamify.Logic", "Gamify.Logic\Gamify.Logic.csproj", "{CE84445E-4A60-427F-995B-69CC0D3B911D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{290F108E-EFA2-4E1B-A906-834E3FC68880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290F108E-EFA2-4E1B-A906-834E3FC68880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290F108E-EFA2-4E1B-A906-834E3FC68880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290F108E-EFA2-4E1B-A906-834E3FC68880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5FDB7BB-FDC7-45AB-8B9A-9244E08DF910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FDB7BB-FDC7-45AB-8B9A-9244E08DF910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FDB7BB-FDC7-45AB-8B9A-9244E08DF910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FDB7BB-FDC7-45AB-8B9A-9244E08DF910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8C7699-FFC2-4EC0-BB5E-BCD58283D468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8C7699-FFC2-4EC0-BB5E-BCD58283D468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8C7699-FFC2-4EC0-BB5E-BCD58283D468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8C7699-FFC2-4EC0-BB5E-BCD58283D468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE84445E-4A60-427F-995B-69CC0D3B911D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE84445E-4A60-427F-995B-69CC0D3B911D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE84445E-4A60-427F-995B-69CC0D3B911D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE84445E-4A60-427F-995B-69CC0D3B911D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
