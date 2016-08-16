@@ -9,7 +9,7 @@ namespace Gamify.Logic.Concrete
 {
     public class Printing
     {
-        static int[,] lab = BoardGame.CreateBoard();
+        private static int[,] lab = BoardGame.CreateBoard();
         private static int mine = 0;
 
         public static void PrintOut(int row, int col)
